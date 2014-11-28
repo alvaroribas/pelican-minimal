@@ -3,8 +3,8 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style.css">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/my_logo.png" type="image/png">
+  <link rel="shortcut icon" href="/images/my_logo.png" type="image/png">
   <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/pygments.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,600italic,700,700italic|Inconsolata">
   <link  href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -50,6 +50,7 @@
         <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
         {% endfor %}{% endif %}
       </ul>
+      <br>
       <ul2>
 	{% for icon, name, link in SOCIAL_EMAIL %}
         <li><a href="{{ link }}"><i class="fa {{icon}}"></i> {{ name }}</a></li>

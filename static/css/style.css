@@ -53,18 +53,19 @@ aside div#user_meta ul {
 aside div#user_meta ul li {
   margin-left: 0px;
   display: inline;
+  font-size: 1.1em;
 }
 aside div#user_meta ul li a {
   color: #eeeeee;
 }
 aside div#user_meta ul li a i {
   margin-right: 4px;
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 aside div#user_meta ul2 {
   margin: 60px 0 0 0;
   padding-left: 10px;
-  font-size: 0.7em;
+  font-size: 0.75em;
   list-style-type: none;
 }
 aside div#user_meta ul2 li {
