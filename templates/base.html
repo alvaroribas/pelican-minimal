@@ -37,7 +37,7 @@
     <div id="user_meta">
       <a href="/">
         {% if USER_LOGO_URL %}
-        <img src="{{ USER_LOGO_URL }}" alt="logo">
+        <img src="{{ USER_LOGO_URL }}" alt="logo" align="middle"><br><br><br><br>
         {% endif %}
       </a>
       <h2><a href="/">{{ AUTHOR }}</a></h2>
@@ -50,7 +50,6 @@
         <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
         {% endfor %}{% endif %}
       </ul>
-      <br>
       <ul2>
 	{% for icon, name, link in SOCIAL_EMAIL %}
         <li><a href="{{ link }}"><i class="fa {{icon}}"></i> {{ name }}</a></li>
