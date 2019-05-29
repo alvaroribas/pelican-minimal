@@ -28,28 +28,29 @@ aside div#user_meta {
 }
 aside div#user_meta h2 {
   color: #ffffff;
-  margin: 0% 5% 0% 5%;
+  margin: 0% 5% 4% 5%;
   padding-left: 0%;
+  padding-bottom: 3%;
   padding-right: 0%;
   font-weight: 800;
   border-bottom: #303030 2px solid;
 }
 aside div#user_meta a {
-  font-size: 120%;
+  font-size: 150%;
   color: #303030;
   text-decoration: none;
 }
 aside div#user_meta p {
   margin: 0 0% 0% 0;
-  font-size: 120%;
+  font-size: 140%;
   padding-left: 0%;
   padding-right: 0%;
   color: #858585;
 }
 aside div#user_meta ul {
-  margin: 35px 0 0 0;
+  margin: 40px 0 0 0;
   padding-left: 0px;
-  font-size: 0.8em;
+  font-size: 0.75em;
   list-style-type: none;
 }
 aside div#user_meta ul li {
@@ -102,7 +103,7 @@ main article h1 {
   font-size: 38px;
 }
 main article h2 {
-  font-size: 32px;
+  font-size: 28px;
 }
 main article h3 {
   font-size: 22px;
@@ -121,7 +122,7 @@ main article div#disqus_thread {
   padding: 25px 0;
 }
 main article div#article_text {
-  font-size: 17pt;
+  font-size: 15pt;
   line-height: 35px;
 }
 main article div#article_text a {
@@ -205,7 +206,7 @@ main div#ending_message {
 }
 @media screen and (min-width: 1024px) {
   aside {
-    width: 25%;
+    width: 22%;
     height: 70%;
     position: fixed;
     top: 10%;
@@ -217,7 +218,7 @@ main div#ending_message {
     margin: 10px 0 0 0;
   }
   aside div#user_meta {
-    max-width: 75%;
+    max-width: 77%;
     text-align: center;
   }
   aside div#user_meta ul li {
@@ -225,15 +226,15 @@ main div#ending_message {
     display: block;
   }
   main {
-    width: 75%;
+    width: 77%;
     position: absolute;
     top: 0;
-    left: 25%;
+    left: 23%;
     overflow-x: hidden;
     overflow-y: hidden;
   }
   main article {
-    max-width: 80%;
+    max-width: 100%;
     font-size: 90%;
   }
   main header {
